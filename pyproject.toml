@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spritekey-local"
+version = "0.4.0"
+description = "Local, auditable screen extraction to straight RGBA PNG sequences"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
+authors = [{name = "SpriteKey contributors"}]
+dependencies = ["numpy>=1.24", "Pillow>=10", "opencv-python-headless>=4.8"]
+
+[project.urls]
+Homepage = "https://github.com/huoxuet/spritekey"
+Repository = "https://github.com/huoxuet/spritekey"
+Issues = "https://github.com/huoxuet/spritekey/issues"
+
+[project.scripts]
+spritekey = "spritekey.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+spritekey = ["resources/*"]

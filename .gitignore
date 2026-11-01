@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+install-check/
+quality-calibration-*/
+.venv/
+
+.env
+.env.*
+demo-*/
+.pytest_cache/
+.DS_Store

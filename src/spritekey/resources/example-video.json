@@ -1,0 +1,6 @@
+{
+  "input_video": "input.mp4",
+  "output": "output-video-new",
+  "screen": "green",
+  "background_roi": [0, 0, 12, 12]
+}

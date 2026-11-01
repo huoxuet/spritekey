@@ -1,0 +1,7 @@
+include LICENSE README.md AUTHORSHIP.md SOURCES.md THIRD_PARTY_NOTICES.md
+recursive-include tests *.py
+recursive-include src/spritekey/resources *
+
+include README.zh-CN.md VALIDATION.md CONTRIBUTING.md CHANGELOG.md SOURCE-SHA256.json
+recursive-include docs *.md *.png
+recursive-include scripts *.py
